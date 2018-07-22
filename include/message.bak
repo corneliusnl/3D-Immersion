@@ -1,0 +1,28 @@
+#ifndef IMMERSION_INTERFACE_H
+#define IMMERSION_INTERFACE_H
+// ------------------------------------------------------------
+// Interface Message Handler Prototypes
+// Copyright 1997 (c) Leprechaun Software.  All Rights Reserved.
+// ------------------------------------------------------------
+
+//
+// Interface Message Defines
+//
+#define IF_CREATE		0x00000000
+#define IF_TIMER		0x00000001
+#define IF_KEYDOWN	0x00000002
+#define IF_KEYUP		0x00000003
+#define IF_UPDATE		0x00000004
+#define IF_DESTROY	0x00000010
+
+//
+// Object Interface Defines
+//
+#define OBJ_CREATE		0x00000001
+#define OBJ_ANIMATE		0x00000002
+#define OBJ_MOUSEDOWN	0x00000003
+#define OBJ_MOUSEMOVE	0x00000004
+#define OBJ_MOUSEUP		0x00000005
+#define OBJ_DESTROY		0x00000006
+
+#endif

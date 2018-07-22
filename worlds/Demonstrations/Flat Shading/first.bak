@@ -1,0 +1,35 @@
+; 3D Immersion Sample World Definition File
+;
+; Sample World Definition File
+; Copyright 1998 (c) Leprechaun Software.  All Rights Reserved.
+
+;
+; World(Descriptive Text, Number of Objects, Number of Cameras, Number of Lights)
+;
+World("Sample World", 1, 1, 1)
+{
+	int	Count;
+
+	void Create()
+	{
+		SetBackgroundColor(0, 0, 192);
+		SetAmbience(0.2);
+
+		Object = AddObject("Solid Cube.odf");
+		Object.SetAlias("Solid Cube");
+		Object.SetRotationalAcceleration(0.2, 0.03, 0.04);
+		Object.SetLinearVelocity(0.02, 0.2, 1);
+
+		Camera = AddCamera();
+		Camera.SetAlias("Default Camera");
+		Camera.Translate(0, 10, -100);
+		Camera.SetHither(10);
+		Camera.SetYon(10000);
+		Camera.SetProjectionPlane(1000);
+
+		Light = AddLight();
+		Light.SetAlias("Default Light");
+		Light.Translate(-1, 1, -1);
+		Light.SetIntensities(1, 1, 1);
+	}
+}

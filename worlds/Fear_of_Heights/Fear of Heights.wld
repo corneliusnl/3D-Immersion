@@ -1,0 +1,513 @@
+; World Definition File
+; Copyright 1997-1998 (c) Leprechaun Software.  All Rights Reserved.
+;
+
+World("Overcome your fear of heights")
+{
+	SetInterface("Heights.dll")
+	SetPalette("Default.pal")
+	SetBackgroundColor(0, 0, 192)
+	SetGravity(0.000000)
+
+	AddObject("Office.odf", "Office Building 2")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(1470.000, 0.000, -980.000)
+		Scale(1.000, 9.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Windmill.odf", "Windmill")
+	{
+		Translate(-980.000, 0.000, -980.000)
+		Scale(1.000, 1.000, 1.000)
+	}
+
+
+	AddObject("Propellor.odf", "Propellor")
+	{
+		SetInterface("propellor.dll")
+		Rotate(0.000, 0.000, 69.675)
+		Translate(-920.000, 200.000, -920.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 1.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("MONUMENT.odf", "Washington Monument")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(1470.000, 0.000, 1470.000)
+		Scale(5.000, 5.000, 5.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Horizon.odf", "Horizon")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(0.000, 0.000, 0.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("elevator.odf", "Elevator")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(0.000, 0.000, 0.000)
+		Scale(0.800, 0.800, 0.800)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Store.odf", "General Store 2")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(-980.000, 0.000, 490.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Store.odf", "General Store 1")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(0.000, 0.000, -980.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Building.odf", "Residential Building 6")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(-980.000, 0.000, 0.000)
+		Scale(1.000, 5.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Building.odf", "Residential Building 5")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(490.000, 0.000, -980.000)
+		Scale(1.000, 2.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Building.odf", "Residential Building 4")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(1470.000, 0.000, 490.000)
+		Scale(1.000, 3.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Building.odf", "Residential Building 3")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(1470.000, 0.000, 0.000)
+		Scale(1.000, 4.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Building.odf", "Residential Building 2")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(490.000, 0.000, 1470.000)
+		Scale(1.000, 4.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Office.odf", "Office Building 1")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(0.000, 0.000, 1470.000)
+		Scale(1.000, 7.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Road_v.odf", "Road_v8")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(980.000, 0.000, -980.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Road_v.odf", "Road_v7")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(-490.000, 0.000, -980.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Road_h.odf", "Road_h8")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(-980.000, 0.000, -490.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Road_h.odf", "Road_h7")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(1470.000, 0.000, -490.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Road_h.odf", "Road_h6")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(-980.000, 0.000, 980.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Road_h.odf", "Road_h4")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(1470.000, 0.000, 980.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Road_v.odf", "Road_v6")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(-490.000, 0.000, 1470.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Road_v.odf", "Road_v5")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(980.000, 0.000, 1470.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Intersection.odf", "Intersection4")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(-490.000, 0.000, -490.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Road_h.odf", "Road_h5")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(0.000, 0.000, -490.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Road_h.odf", "Road_h3")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(490.000, 0.000, -490.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Intersection.odf", "Intersection3")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(980.000, 0.000, -490.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Road_v.odf", "Road_v4")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(980.000, 0.000, 0.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Road_v.odf", "Road_v1")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(980.000, 0.000, 490.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Intersection.odf", "Intersection2")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(980.000, 0.000, 980.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Road_h.odf", "Road_h2")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(490.000, 0.000, 980.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Road_h.odf", "Road_h1")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(0.000, 0.000, 980.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Intersection.odf", "Intersection1")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(-490.000, 0.000, 980.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Road_v.odf", "Road_v3")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(-490.000, 0.000, 490.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Road_v.odf", "Road_v2")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(-490.000, 0.000, 0.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Piza.odf", "Piza Tower")
+	{
+		Rotate(5.000, 5.000, 5.000)
+		Translate(-980.000, -30.000, 1470.000)
+		Scale(2.000, 5.000, 2.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddCamera("Default Camera")
+	{
+		Rotate(9.855, 206.074, 0.000)
+		Translate(0.000, 100.000, 0.000)
+		SetHither(10)
+		SetYon(100000)
+		SetProjectionPlane(1000)
+	}
+
+	AddLight("Default Light")
+	{
+		SetDirection(-1.000, 1.000, -1.000)
+		Translate(0.000, 0.000, 0.000)
+		SetAmbience(0.000)
+		TurnedOn(true)
+	}
+
+}

@@ -1,0 +1,337 @@
+; Converted By Conversion V2.0
+; Copyright 1998 (c) Leprechaun Software.  All Rights Reserved.
+
+Object(14)
+{
+	AddVertex(0,225,0)	; 0 
+	AddVertex(-40,225,0)	; 1 
+	AddVertex(0,225,-40)	; 2 
+	AddVertex(-40,170,0)	; 4 
+	AddVertex(0,170,-40)	; 5 
+	AddVertex(-85,0,0)	; 8 
+	AddVertex(0,0,-85)	; 9 
+	AddVertex(0,0,0)	; 12 
+	AddVertex(40,225,0)	; 16 
+	AddVertex(0,225,40)	; 19 
+	AddVertex(40,170,0)	; 25 
+	AddVertex(0,170,40)	; 29 
+	AddVertex(85,0,0)	; 37 
+	AddVertex(0,0,85)	; 41 
+
+	AddTexturePolygon(3,0,1,2)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 0)
+			MapVertex(199, 0)
+			MapVertex(199, 199)
+		}
+	}
+	AddTexturePolygon(3,2,1,0)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 0)
+			MapVertex(199, 0)
+			MapVertex(199, 199)
+		}
+	}
+	AddTexturePolygon(4,1,3,4,2)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,2,4,3,1)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,3,5,6,4)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,4,6,5,3)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(3,5,7,6)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 0)
+			MapVertex(199, 0)
+			MapVertex(199, 199)
+		}
+	}
+	AddTexturePolygon(3,6,7,5)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 0)
+			MapVertex(199, 0)
+			MapVertex(199, 199)
+		}
+	}
+	AddTexturePolygon(3,0,2,8)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 0)
+			MapVertex(199, 0)
+			MapVertex(199, 199)
+		}
+	}
+	AddTexturePolygon(3,8,2,0)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 0)
+			MapVertex(199, 0)
+			MapVertex(199, 199)
+		}
+	}
+	AddTexturePolygon(3,0,8,9)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 0)
+			MapVertex(199, 0)
+			MapVertex(199, 199)
+		}
+	}
+	AddTexturePolygon(3,9,8,0)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 0)
+			MapVertex(199, 0)
+			MapVertex(199, 199)
+		}
+	}
+	AddTexturePolygon(3,0,9,1)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 0)
+			MapVertex(199, 0)
+			MapVertex(199, 199)
+		}
+	}
+	AddTexturePolygon(3,1,9,0)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 0)
+			MapVertex(199, 0)
+			MapVertex(199, 199)
+		}
+	}
+	AddTexturePolygon(4,2,4,10,8)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,8,10,4,2)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,8,10,11,9)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,9,11,10,8)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,9,11,3,1)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,1,3,11,9)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,4,6,12,10)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,10,12,6,4)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,10,12,13,11)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,11,13,12,10)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,11,13,5,3)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,3,5,13,11)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(3,6,7,12)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 0)
+			MapVertex(199, 0)
+			MapVertex(199, 199)
+		}
+	}
+	AddTexturePolygon(3,12,7,6)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 0)
+			MapVertex(199, 0)
+			MapVertex(199, 199)
+		}
+	}
+	AddTexturePolygon(3,12,7,13)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 0)
+			MapVertex(199, 0)
+			MapVertex(199, 199)
+		}
+	}
+	AddTexturePolygon(3,13,7,12)
+	{
+		SetColor(252,252,252)
+		SetTexture("Rock.bmp")
+		{
+			MapVertex(0, 0)
+			MapVertex(199, 0)
+			MapVertex(199, 199)
+		}
+	}
+}

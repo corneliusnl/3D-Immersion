@@ -1,0 +1,75 @@
+; World Definition File
+; Copyright 1997-1998 (c) Leprechaun Software.  All Rights Reserved.
+;
+
+World("Keplers Law World")
+{
+	SetInterface("Space.dll")
+	SetPalette("Default.pal")
+	SetMusic("Star Trek.mid")
+	SetBackgroundColor(0, 0, 0)
+	SetGravity(0.000000)
+
+	AddObject("Satellite.odf", "Satellite 1")
+	{
+		SetInterface("Kepler.dll")
+		Rotate(16.177, 16.177, 161.771)
+		Translate(910.745, -831.996, 0.000)
+		Scale(0.800, 0.800, 0.800)
+		SetLinearVelocity(33.230, 23.960, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.100, 0.100, 1.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(400.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Satellite.odf", "Satellite 2")
+	{
+		SetInterface("Kepler.dll")
+		Rotate(161.771, 323.543, 161.771)
+		Translate(0.000, -765.159, 844.303)
+		Scale(0.800, 0.800, 0.800)
+		SetLinearVelocity(0.000, -3.855, -35.672)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(1.000, 2.000, 1.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(400.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("planet.odf", "Planet")
+	{
+		SetInterface("Kepler.dll")
+		Rotate(0.000, 161.771, 23.500)
+		Translate(0.000, 0.000, 0.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 1.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(30000001024.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddCamera("Default Camera")
+	{
+		Rotate(359.005, 0.880, 0.000)
+		Translate(0.000, 0.000, -6000.000)
+		SetHither(10)
+		SetYon(100000)
+		SetProjectionPlane(1000)
+	}
+
+	AddLight("Default Light")
+	{
+		SetDirection(-1.000, 1.000, -1.000)
+		Translate(0.000, 0.000, 0.000)
+		SetAmbience(0.200)
+		TurnedOn(true)
+	}
+
+}

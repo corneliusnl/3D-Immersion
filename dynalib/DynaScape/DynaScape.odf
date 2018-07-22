@@ -1,0 +1,7 @@
+; Dynamic Landscape
+; OMEGOS 3d format
+
+Object(121, 100)
+{
+	SetDynaLib("dynascape.dll")
+}

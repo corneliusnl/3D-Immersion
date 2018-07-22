@@ -1,0 +1,103 @@
+; Converted By Conversion V2.0
+; Copyright 1998 (c) Leprechaun Software.  All Rights Reserved.
+
+Object(16)
+{
+	AddVertex(300,0,245)	; 0 
+	AddVertex(-300,0,245)	; 1 
+	AddVertex(-300,10,245)	; 2 
+	AddVertex(300,10,245)	; 3 
+	AddVertex(-300,0,-245)	; 5 
+	AddVertex(-300,10,-245)	; 6 
+	AddVertex(300,0,-245)	; 9 
+	AddVertex(300,10,-245)	; 10 
+	AddVertex(-200,0,145)	; 16 
+	AddVertex(-200,0,-145)	; 17 
+	AddVertex(-200,200,-145)	; 18 
+	AddVertex(-200,200,145)	; 19 
+	AddVertex(200,0,-145)	; 21 
+	AddVertex(200,200,-145)	; 22 
+	AddVertex(200,0,145)	; 25 
+	AddVertex(200,200,145)	; 26 
+
+	AddLambertPolygon(4,0,1,2,3)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(4,3,2,1,0)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(4,1,4,5,2)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(4,2,5,4,1)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(4,4,6,7,5)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(4,5,7,6,4)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(4,6,0,3,7)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(4,7,3,0,6)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(4,8,9,10,11)
+	{
+		SetColor(172,84,0)
+	}
+	AddLambertPolygon(4,11,10,9,8)
+	{
+		SetColor(172,84,0)
+	}
+	AddLambertPolygon(4,9,12,13,10)
+	{
+		SetColor(172,84,0)
+	}
+	AddLambertPolygon(4,10,13,12,9)
+	{
+		SetColor(172,84,0)
+	}
+	AddLambertPolygon(4,12,14,15,13)
+	{
+		SetColor(172,84,0)
+	}
+	AddLambertPolygon(4,13,15,14,12)
+	{
+		SetColor(172,84,0)
+	}
+	AddLambertPolygon(4,14,8,11,15)
+	{
+		SetColor(172,84,0)
+	}
+	AddLambertPolygon(4,15,11,8,14)
+	{
+		SetColor(172,84,0)
+	}
+	AddLambertPolygon(3,5,2,7)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(3,7,2,5)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(3,7,2,3)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(3,3,2,7)
+	{
+		SetColor(48,0,0)
+	}
+}

@@ -1,0 +1,75 @@
+; Simple three dimensional cube
+; OMEGOS 3d format
+
+Object(8)
+{
+	AddVertex(-10, 10,-10)
+	AddVertex( 10, 10,-10)
+	AddVertex( 10,-10,-10)
+	AddVertex(-10,-10,-10)
+	AddVertex(-10, 10, 10)
+	AddVertex( 10, 10, 10)
+	AddVertex( 10,-10, 10)
+	AddVertex(-10,-10, 10)
+
+	AddTexturePolygon(4,0,1,5,4)
+	{
+		SetColor(148,0,0)
+		SetTexture("test.bmp")
+		{
+			MapVertex(0, 399)
+			MapVertex(399, 399)
+			MapVertex(399, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,3,2,1,0)
+	{
+		SetColor(255,255,255)
+		SetTexture("test2.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(299, 199)
+			MapVertex(299, 0)
+			MapVertex(0, 0)
+		}
+
+	}
+	AddLambertPolygon(4,7,6,2,3)
+	{
+		SetColor(0,255,255)
+	}
+	AddTexturePolygon(4,4,5,6,7)
+	{
+		SetColor(148,0,0)
+		SetTexture("Tammy.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,4,7,3,0)
+	{
+		SetColor(0,148,0)
+		SetTexture("Diane.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,6,5,1,2)
+	{
+		SetColor(0,0,148)
+		SetTexture("Jeremiah.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(199, 199)
+			MapVertex(199, 0)
+			MapVertex(0, 0)
+		}
+	}
+}

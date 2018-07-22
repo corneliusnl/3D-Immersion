@@ -1,0 +1,39 @@
+; Simple three dimensional cube
+; OMEGOS 3d format
+
+Object(8)
+{
+	AddVertex(-10, 10,-10)
+	AddVertex( 10, 10,-10)
+	AddVertex( 10,-10,-10)
+	AddVertex(-10,-10,-10)
+	AddVertex(-10, 10, 10)
+	AddVertex( 10, 10, 10)
+	AddVertex( 10,-10, 10)
+	AddVertex(-10,-10, 10)
+
+	AddLambertPolygon(4,0,1,5,4)
+	{
+		SetColor(148,0,0)
+	}
+	AddLambertPolygon(4,3,2,1,0)
+	{
+		SetColor(255,255,255)
+	}
+	AddLambertPolygon(4,7,6,2,3)
+	{
+		SetColor(0,255,255)
+	}
+	AddLambertPolygon(4,4,5,6,7)
+	{
+		SetColor(148,0,0)
+	}
+	AddLambertPolygon(4,4,7,3,0)
+	{
+		SetColor(0,148,0)
+	}
+	AddLambertPolygon(4,6,5,1,2)
+	{
+		SetColor(0,0,148)
+	}
+}	

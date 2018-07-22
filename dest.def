@@ -1,0 +1,13 @@
+LIBRARY     IMMERSION.EXE
+
+EXPORTS
+    @AboutDlgProc$qqspvuiuil       @8   ; AboutDlgProc(void*,unsigned int,unsigned int,long) __stdcall
+    @CameraDlgProc$qqspvuiuil      @4   ; CameraDlgProc(void*,unsigned int,unsigned int,long) __stdcall
+    @InfoDlgProc$qqspvuiuil        @2   ; InfoDlgProc(void*,unsigned int,unsigned int,long) __stdcall
+    @LightDlgProc$qqspvuiuil       @5   ; LightDlgProc(void*,unsigned int,unsigned int,long) __stdcall
+    @ObjectDlgProc$qqspvuiuil      @3   ; ObjectDlgProc(void*,unsigned int,unsigned int,long) __stdcall
+    @RenderWndProc$qqspvuiuil      @7   ; RenderWndProc(void*,unsigned int,unsigned int,long) __stdcall
+    @WndProc$qqspvuiuil            @6   ; WndProc(void*,unsigned int,unsigned int,long) __stdcall
+    _Hello                         @9   
+    __DebuggerHookData             @10  
+    __GetExceptDLLinfo             @1   

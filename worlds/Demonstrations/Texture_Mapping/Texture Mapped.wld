@@ -1,0 +1,49 @@
+; 3D Immersion Sample World Definition File
+;
+; Sample World Definition File
+; Copyright 1998 (c) Leprechaun Software.  All Rights Reserved.
+
+;
+; World(Descriptive Text, Number of Objects, Number of Cameras, Number of Lights)
+;
+World("Sample World")
+{
+	SetInterface("Standard.dll")
+	SetBackgroundColor(0, 0, 192)
+	SetPalette("wing.pal")
+
+	SetHorizon("Horizon.odf", "Horizon")
+	{
+	}
+
+	AddObject("Textured Cube.odf", "Textured Cube")
+	{
+		SetInterface("Kinematic.dll")
+		Translate(0, 0, 100)
+		SetRotationalVelocity(0, 0.5, 0)
+		SetLinearVelocity(0, 2, 0)
+	}
+
+	AddLight("Default Light")
+	{
+		TurnedOn(true)
+		SetIntensities(1, 1, 1)
+		SetDirection(-1, 1, -1)
+		SetAmbience(0.2)
+	}
+
+	AddCamera("Default Camera")
+	{
+		SetHither(10)
+		SetYon(50000)
+		SetProjectionPlane(1000)
+		Translate(0, 10, 0)
+	}
+
+	AddCamera("Behind Camera")
+	{
+		SetHither(10)
+		SetYon(10000)
+		Translate(0, 0, -10)
+	}
+}

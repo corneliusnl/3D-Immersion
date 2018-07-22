@@ -1,0 +1,33 @@
+; 3D Immersion Sample World Definition File
+;
+; Vehicle Physics Demonstration
+; Copyright 1998 (c) Leprechaun Software.  All Rights Reserved.
+
+;
+; World(Descriptive Text, Number of Objects, Number of Cameras, Number of Lights)
+;
+World("Vehicle Physics Demonstration", 0, 1, 1)
+{
+	SetInterface("Vehicle.dll")
+	SetBackgroundColor(0, 0, 192)
+	SetAmbience(0.2)
+
+	SetHorizon("Horizon.odf", "Horizon")
+	{
+	}
+
+	AddLight("Default Light")
+	{
+		TurnedOn(true)
+		Translate(-1, 1, -1)
+		SetIntensities(1, 1, 1)
+	}
+
+	AddCamera("Default Camera")
+	{
+		SetProjectionPlane(1000)
+		SetHither(10)
+		SetYon(10000)
+		Translate(0, 10, 0)
+	}
+}

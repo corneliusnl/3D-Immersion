@@ -1,0 +1,17 @@
+#include <string.h>
+#include <stdlib.h>
+
+typedef struct
+{
+	HINSTANCE 	hInstance;
+	HINSTANCE 	hPrevInst;
+	int			cmdShow;
+} WINAPP;
+
+LRESULT CALLBACK _export WndProc(HWND, UINT, WPARAM, LPARAM);
+LRESULT CALLBACK _export RenderWndProc(HWND hWindow, UINT Message, WPARAM wParam, LPARAM lParam);
+int _export FAR PASCAL AboutDlgProc(HWND, UINT, WPARAM, LPARAM);
+int _export FAR PASCAL InfoDlgProc(HWND, UINT, WPARAM, LPARAM);
+int _export FAR PASCAL ObjectDlgProc(HWND, UINT, WPARAM, LPARAM);
+int _export FAR PASCAL CameraDlgProc(HWND, UINT, WPARAM, LPARAM);
+int _export FAR PASCAL LightDlgProc(HWND, UINT, WPARAM, LPARAM);

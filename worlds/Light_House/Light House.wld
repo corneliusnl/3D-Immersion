@@ -1,0 +1,118 @@
+; World Definition File
+; Copyright 1997-1998 (c) Leprechaun Software.  All Rights Reserved.
+;
+
+World("Sample World")
+{
+	SetInterface("Standard.dll")
+	SetPalette("Default.pal")
+	SetMusic("Ambient.mid")
+	SetBackgroundColor(0, 0, 192)
+	SetGravity(0.000000)
+
+	AddObject("Tree.odf", "Fir tree")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(20.000, 24.000, 30.000)
+		Scale(0.200, 0.200, 0.200)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Boat.odf", "Row boat")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(0.000, 0.000, 0.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("LigHouse.odf", "Light house")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(0.000, 0.000, 0.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(4307750633809215397000000000000000.000)
+	}
+
+	AddObject("Island.odf", "Island")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(0.000, 0.000, 0.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("Horizon.odf", "Horizon")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(0.000, 0.000, 0.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddCamera("Boat Camera")
+	{
+		Rotate(2.796, 103.408, 0.000)
+		Translate(-3.703, 12.278, -142.980)
+		SetHither(10)
+		SetYon(10000)
+		SetProjectionPlane(1000)
+	}
+
+	AddCamera("Behind camera")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(0.000, 0.000, -500.000)
+		SetHither(10)
+		SetYon(10000)
+		SetProjectionPlane(1000)
+	}
+
+	AddCamera("Default camera")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(0.000, 40.000, -276.100)
+		SetHither(10)
+		SetYon(1000000)
+		SetProjectionPlane(1000)
+	}
+
+	AddLight("Default light")
+	{
+		SetDirection(-1.000, 1.000, -1.000)
+		Translate(0.000, 0.000, 0.000)
+		SetAmbience(0.200)
+		TurnedOn(true)
+	}
+
+}

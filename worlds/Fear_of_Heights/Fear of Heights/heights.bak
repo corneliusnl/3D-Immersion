@@ -1,0 +1,269 @@
+// ------------------------------------------------------------
+// Vehicle interface
+// Copyright 1997 (c) Leprechaun Software.  All Rights Reserved.
+// ------------------------------------------------------------
+#include <Windows.h>
+#include <Math.h>
+#include "Include\Dib.h"
+#include "Include\World.h"
+#include "Include\Interface.h"
+
+//
+// Defines
+//
+#define UP			0
+#define DOWN		1
+#define RIGHT		2
+#define LEFT		3
+#define LOOKUP		4
+#define LOOKDOWN	5
+
+//
+// Variables
+//
+bool	Keybrd[6];
+DIB	*Dib;
+int	CurrentLevel = 0;
+int	SoundLevel = 0;
+
+//
+// Encouragement Messages
+//
+struct
+{
+	char	*Text;
+	char	*Audio;
+	int	Level;
+}
+Encourage[] =
+{
+	{"I thought you where afraid of heights!?!?", "1.wav", 50},
+	{"Most impressive!",					"2.wav", 40},
+	{"You're doing great!", 			"3.wav", 30},
+	{"That's it!",							"4.wav", 20},
+	{"You can do it!",					"5.wav", 10},
+	{"Overcome your fear of heights!",					"Overcome Speech.wav", 0},
+	NULL
+};
+int			Index = 0;
+
+//
+// Function prototypes
+//
+void	HandleKeyboard(WORLD *World, WPARAM wParam, bool Down);
+void	Update(WORLD *World);
+void	HandleEncouragement(WORLD *World);
+
+// ------------------------------------------------------------
+// void HandleKeyboard(WORLD *World, WPARAM wParam, bool Down)
+// ------------------------------------------------------------
+// Description
+//  Handles the world updating
+//
+// Parameters
+//  World		- Handleof world
+//  wParam		- Scan code
+//  Down			- Key press status
+//
+// Returns
+//  Nothing
+// ------------------------------------------------------------
+void HandleKeyboard(WORLD *World, WPARAM wParam, bool Down)
+{
+	switch(wParam)
+	{
+		case VK_UP:		Keybrd[UP]			= Down;		break;
+		case VK_DOWN:	Keybrd[DOWN]		= Down;		break;
+		case VK_LEFT:	Keybrd[LEFT]		= Down;	 	break;
+		case VK_RIGHT:	Keybrd[RIGHT]		= Down;		break;
+		case VK_PRIOR:	Keybrd[LOOKUP]		= Down;		break;
+		case VK_NEXT:	Keybrd[LOOKDOWN]	= Down;		break;
+	}
+};
+
+// ------------------------------------------------------------
+// void Update(WORLD *World)
+// ------------------------------------------------------------
+// Description
+//  Handles the world updating
+//
+// Parameters
+//  World		- World
+//
+// Returns
+//  Nothing
+// ------------------------------------------------------------
+void Update(WORLD *World)
+{
+	OBJECT *Object;
+
+	//
+	// Handle keyboard input
+	//
+	Object = World->FindObject("Elevator");
+	if(Keybrd[UP])
+	{
+		Object->yTranslate += 100 * ((float)World->DeltaTime/1000);
+		World->Camera->yTranslate += 100 * ((float)World->DeltaTime/1000);
+	}
+	if(Keybrd[DOWN])
+	{
+		Object->yTranslate -= 100 * ((float)World->DeltaTime/1000);
+		World->Camera->yTranslate -= 100 * ((float)World->DeltaTime/1000);
+
+		if(World->Camera->yTranslate < 100)
+		{
+			Object->yTranslate = 0;
+			World->Camera->yTranslate = 100;
+		}
+	}
+	if(Keybrd[RIGHT])
+		World->Camera->Yaw += 0.526 * ((float)World->DeltaTime/1000);
+	if(Keybrd[LEFT])
+		World->Camera->Yaw -= 0.526 * ((float)World->DeltaTime/1000);
+	if(Keybrd[LOOKUP])
+	{
+		World->Camera->Pitch -= 0.526 * ((float)World->DeltaTime/1000);
+	}
+	if(Keybrd[LOOKDOWN])
+	{
+		World->Camera->Pitch += 0.526 * ((float)World->DeltaTime/1000);
+	}
+
+	CurrentLevel = Object->yTranslate / 100;
+};
+
+// ------------------------------------------------------------
+// void HandleEncouragement(WORLD *World)
+// ------------------------------------------------------------
+// Description
+//  Handles the presenting of encouragemet to the user through
+// text and audio according to their progress.
+//
+// Parameters
+//  World		- Pointer to world
+//
+// Return
+//  Nothing
+// ------------------------------------------------------------
+void HandleEncouragement(WORLD *World)
+{
+	LOGFONT	FontRec;
+   char		Buff[250];
+
+	//
+	// Print elevator level
+	//
+	FontRec.lfHeight				= 30;
+	FontRec.lfWidth  				= 20;
+	FontRec.lfEscapement			= 0;
+	FontRec.lfOrientation		= 0;
+	FontRec.lfWeight				= FW_BOLD;
+	FontRec.lfItalic				= 0;
+	FontRec.lfUnderline			= 0;
+	FontRec.lfStrikeOut			= 0;
+	FontRec.lfCharSet				= ANSI_CHARSET;
+	FontRec.lfOutPrecision		= OUT_DEFAULT_PRECIS;
+	FontRec.lfClipPrecision		= CLIP_DEFAULT_PRECIS;
+	FontRec.lfQuality				= PROOF_QUALITY;
+	FontRec.lfPitchAndFamily	= VARIABLE_PITCH | FF_ROMAN;
+	strcpy(FontRec.lfFaceName, "Times New Roman");
+	SelectObject(World->GContext->GDC, CreateFontIndirect(&FontRec));
+	SetTextColor(World->GContext->GDC, RGB(0, 128, 0));
+	SetBkMode(World->GContext->GDC, TRANSPARENT);
+
+	sprintf(Buff, "%d", CurrentLevel);
+	TextOut(World->GContext->GDC, 40, 420, Buff, strlen(Buff));
+
+	DeleteObject(SelectObject(World->GContext->GDC, CreateFontIndirect(&FontRec)));
+
+	//
+	// Print encouragement text
+	//
+	FontRec.lfHeight				= 17;
+	FontRec.lfWidth  				= 13;
+	FontRec.lfEscapement			= 0;
+	FontRec.lfOrientation		= 0;
+	FontRec.lfWeight				= FW_BOLD;
+	FontRec.lfItalic				= 0;
+	FontRec.lfUnderline			= 0;
+	FontRec.lfStrikeOut			= 0;
+	FontRec.lfCharSet				= ANSI_CHARSET;
+	FontRec.lfOutPrecision		= OUT_DEFAULT_PRECIS;
+	FontRec.lfClipPrecision		= CLIP_DEFAULT_PRECIS;
+	FontRec.lfQuality				= PROOF_QUALITY;
+	FontRec.lfPitchAndFamily	= VARIABLE_PITCH | FF_ROMAN;
+	strcpy(FontRec.lfFaceName, "Times New Roman");
+	SelectObject(World->GContext->GDC, CreateFontIndirect(&FontRec));
+	SetTextColor(World->GContext->GDC, RGB(0, 128, 0));
+	SetBkMode(World->GContext->GDC, TRANSPARENT);
+
+	for(int i = 0; Encourage[i].Text != NULL; i++)
+		if(CurrentLevel >= Encourage[i].Level)
+		{
+			TextOut(World->GContext->GDC, 100, 440, Encourage[i].Text, strlen(Encourage[i].Text));
+			break;
+		}
+
+	if(CurrentLevel == SoundLevel)
+	{
+		switch(SoundLevel)
+		{
+			case 0:	sndPlaySound("Overcome Speech.wav", SND_ASYNC); break;
+			case 10:	sndPlaySound("5.wav", SND_ASYNC);	break;
+			case 20:	sndPlaySound("4.wav", SND_ASYNC);	break;
+			case 30:	sndPlaySound("3.wav", SND_ASYNC);	break;
+			case 40:	sndPlaySound("2.wav", SND_ASYNC);	break;
+			case 50:	sndPlaySound("1.wav", SND_ASYNC);	break;
+		}
+		SoundLevel += 10;
+	}
+
+	DeleteObject(SelectObject(World->GContext->GDC, CreateFontIndirect(&FontRec)));
+	DeleteObject(SelectObject(World->GContext->GDC, GetStockObject(SYSTEM_FONT)));
+	RestoreDC(World->GContext->GDC, -1);
+};
+
+// ------------------------------------------------------------
+// long __stdcall InterfaceProc(WORLD *World, unsigned int Message, WPARAM wParam, LPARAM lParam)
+// ------------------------------------------------------------
+// Description
+//  Object interface to the immersion program
+//
+// Parameters
+//  World		- Handle of world
+//  Message		- Message code
+//  wParam		- Word parameter
+//  lParam		- Long parameter
+//
+// Returns
+//  Long value
+// ------------------------------------------------------------
+long __stdcall InterfaceProc(WORLD *World, unsigned int Message, WPARAM wParam, LPARAM lParam)
+{
+	switch(Message)
+	{
+		case IF_CREATE:
+			Dib	= new DIB("Controls.bmp");
+			break;
+
+		case IF_KEYDOWN:
+			HandleKeyboard(World, wParam, true);
+			break;
+
+		case IF_KEYUP:
+			HandleKeyboard(World, wParam, false);
+			break;
+
+		case IF_UPDATE:
+			Update(World);
+			World->DrawObjects();
+			Dib->TransBlt(World->GContext, 0, 380, 0);
+			HandleEncouragement(World);
+			break;
+
+		case IF_DESTROY:
+			delete Dib;
+			break;
+	}
+};

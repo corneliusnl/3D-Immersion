@@ -1,0 +1,148 @@
+3D Immersion
+Copyright 1998 (c) Leprechaun Software.  All Rights Reserved
+------------------------------------------------------------
+
+(April 3rd) Working into wee hours of the night with the only chance of
+staying awake lying in the hands of the girls in our room at 3:47AM...
+stripping naked.
+
+(April 12th) I had decided after careful delibration to modify the 
+backbone of the program (dynamic libraries) as it has been producing the
+following problems:
+	-Seems to remain in memory even after the library is freed
+	-Large, as they require being linked with graphics library
+	In it's place I plan to implement a powerful scripting language.
+
+(April 15th) I have determined to continue from my previous course
+which was without programmable scripts.  I have, however, kept the
+source code to the script interpretor which I will continue as soon
+as I have completed the more relevant tasks such as creating the
+worlds for the fair.
+
+(April 16th) I have completely given up on the scripting language for
+the moment, although I envision myself to be futily attempting
+to implement or at least further develop this feature on my way to
+Timmons.  I worry that the judges in Timmons will not fully
+appreciate the program, so I'm left tring to implement practical
+implementations for the program and develop technical internal
+features as well.  In any event, today I have developed further the
+object and world object definition file formats to be even more
+intuitive and easy to develop.  Now, the user does not have to be
+concerned about the number of objects, cameras, and lights... as the
+program dynamically allocates memory for this through the use
+of linked lists.  As well, the source code has greatly benefitted from
+using linked lists and the permutations performed on them, whereas
+before arrays where used.
+
+(April 17th) Implemented Z-Buffering and attempted to implement
+sin and cos lookup tables, but this was not as fesible as I had hoped
+as the use of dynamic link libraries prevented their usefulness. The
+code still remains, however, in case future modifications make
+it more fesible.
+
+(April 18th) Optimizations galore!  I've been spending the day adjusting
+the old code to take advantage of the usage of my implementation
+of objects as linked lists and ZBuffering and the code is much more
+understandable and much faster.
+
+(April 21st) Installed CodeGuard to help me in detecting possible
+memory leaks and to ensure that no embarassing errors (like that
+which happened to Bill Gates on national television) pop up.
+
+(April 26th) I started paving the way for the ability to create worlds
+directly from the main module.  However, this day has been wasted as I
+haven't felt or have been very productive... one thing is for sure...
+I wake up tommorrow fully prepared for the task at hand but will be
+limited in time due to school work.
+
+(April 27th) As I anticipated I am fully awake and ready to sit for
+hours and program... but cannot due to homework and study!  Oh well,
+I'll have to find some way to do both without lossing quality.  In any
+event, armed with the powerful CodeGuard debugging tool I discovered
+a bug that caused the computer to lock up and for the texture mapping to
+not work... the problem was an overflow in the vertex list than caused
+program to overwrite other data until a fatal exception occured.  I've
+also reprogrammed the classes to look more like to virtual representation
+presented in the definition files.
+
+(April 28th) Worked on the further implementation of the ability to
+create worlds from within the module.  The program is now fully
+debugged with all errors and memory leaks fixed and cleaned up.  The
+only problem that remains is a problem with the zbuffering and clipping
+of the horizon.
+
+(April 29th) Further work on the world editing implementation.
+
+(April 30th) Further work on world editing implementation... tring
+to pave the way for a productive weekend!  The only problem being a
+consistant interference from CodeGuard resulting in annoying bugs because
+the compiler I'm used appears to be flawed.
+
+(April 31st) Found the bug that I was attributing to CodeGuard... apparently
+it was in fact a problem with the installed Yamaha Software Wavetable
+synthesis and I was extremely fortunate in discovering this error.
+
+(May 1st-2nd) Worked relentlessly to implement world editing capabilities
+into the program.  The result has been worth the effort and the program
+now looks and behaves like a commercial quality program.
+
+(May 3rd) With a pounding headache from staying up all night tapping away
+at the keyboard, I sit here lifelessly, satisifed in the knowledge
+that I have completed in my efforts to enable the ability to create
+worlds from within the main module.  The result is better than I
+had even dreamed!!  The program is now complete and I will now focus on
+the development of worlds.
+
+(May 8th) I finally discovered the reason that the horizon was not
+being drawn in some frames.  The reason being that the object had a
+distance of 0 -- and therefore, could not be drawn because it was
+not between the camera limits.  I corrected this by only ensuring that
+objects greater than the YON are not drawn.
+
+ERROR:
+	while(Token->Get() != TOK_RCB)
+
+List of things to be completed:
+
+-Focus on:
+	-the future scriptability
+		-Allows object class to support other PROPERTIES and METHODS
+	-database of objects and libraries
+	-ability to create worlds from within the main module
+
+-Make presentation on step by step projection of points from 3d to 2d
+-Fix timer
+-Presentation
+	* Why?? Love of mathematics and science - what better way then to be god!
+	* Drawing a line
+	* Major features
+-Collision detection (easy, just using camera positiosn!)
+-Worlds
+	* Clastiaphobia
+	* Physics
+	* Fear of heights
+	* Engineering
+	* Interface instead of 2D
+	* Entertainment
+-Interactions
+-Interfaces
+	* Standard
+	* Flight
+-Dynalibs
+	* Floor
+		* Move camera according to mesh dimensions
+	* Object
+		* Animate
+		* Interact
+	* General
+		* Simply call functions
+-Horizon
+	* Bitmapped
+-Interaction (not overly important)
+-Tabs
+-Visual Basic mathematic explainations
+	* Rotation
+	* Physics
+-Documentation
+-Heirarchy models
+-Network support

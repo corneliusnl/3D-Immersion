@@ -1,0 +1,111 @@
+; Converted By Conversion V2.0
+; Copyright 1998 (c) Leprechaun Software.  All Rights Reserved.
+
+Object(16)
+{
+	AddVertex(-25,120,0)	; 0 
+	AddVertex(-25,25,0)	; 1 
+	AddVertex(25,25,0)	; 2 
+	AddVertex(25,120,0)	; 3 
+	AddVertex(25,25,0)	; 4 
+	AddVertex(25,-20,0)	; 5 
+	AddVertex(135,-20,0)	; 6 
+	AddVertex(135,25,0)	; 7 
+	AddVertex(-25,25,0)	; 8 
+	AddVertex(-25,-20,0)	; 9 
+	AddVertex(-120,-20,0)	; 10 
+	AddVertex(-120,25,0)	; 11 
+	AddVertex(-25,-20,0)	; 12 
+	AddVertex(25,-20,0)	; 13 
+	AddVertex(25,-120,0)	; 14 
+	AddVertex(-25,-120,0)	; 15 
+
+	AddTexturePolygon(4,0,1,2,3)
+	{
+		SetColor(224,108,0)
+		SetTexture("Wood.bmp")
+		{
+			MapVertex(0, 59)
+			MapVertex(59, 59)
+			MapVertex(59, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,3,2,1,0)
+	{
+		SetColor(224,108,0)
+		SetTexture("Wood.bmp")
+		{
+			MapVertex(0, 59)
+			MapVertex(59, 59)
+			MapVertex(59, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,4,5,6,7)
+	{
+		SetColor(224,108,0)
+		SetTexture("Wood.bmp")
+		{
+			MapVertex(0, 59)
+			MapVertex(59, 59)
+			MapVertex(59, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,7,6,5,4)
+	{
+		SetColor(224,108,0)
+		SetTexture("Wood.bmp")
+		{
+			MapVertex(0, 59)
+			MapVertex(59, 59)
+			MapVertex(59, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,8,9,10,11)
+	{
+		SetColor(224,108,0)
+		SetTexture("Wood.bmp")
+		{
+			MapVertex(0, 59)
+			MapVertex(59, 59)
+			MapVertex(59, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,11,10,9,8)
+	{
+		SetColor(224,108,0)
+		SetTexture("Wood.bmp")
+		{
+			MapVertex(0, 59)
+			MapVertex(59, 59)
+			MapVertex(59, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,12,13,14,15)
+	{
+		SetColor(224,108,0)
+		SetTexture("Wood.bmp")
+		{
+			MapVertex(0, 59)
+			MapVertex(59, 59)
+			MapVertex(59, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,15,14,13,12)
+	{
+		SetColor(224,108,0)
+		SetTexture("Wood.bmp")
+		{
+			MapVertex(0, 59)
+			MapVertex(59, 59)
+			MapVertex(59, 0)
+			MapVertex(0, 0)
+		}
+	}
+}

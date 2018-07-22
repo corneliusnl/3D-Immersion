@@ -1,0 +1,45 @@
+;
+; Kinematics Ball Drop
+; Copyright 1998 (c) Leprechaun Software.  All Rights Reserved.
+
+;
+; World(Descriptive Text)
+;
+World("Ball Drop")
+{
+	SetInterface("Standard.dll")
+	SetBackgroundColor(0, 0, 192)
+
+	AddObject("Horizon.odf", "Plane")
+	{
+		SetElasticity(0.45)
+		SetMass(40000000000)
+	}
+
+	AddObject("Cube.odf", "Bouncy cube")
+	{
+		SetInterface("Kinematic.dll")
+		Scale(0.5, 0.5, 0.5)
+		SetElasticity(0.9)
+		Translate(0, 500, 0)
+		SetRotationalVelocity(1, 1, 1)
+		SetRotationalAcceleration(0, 0, 0)
+		SetLinearVelocity(0, 1, 0)
+		SetLinearAcceleration(0, -91, 0)
+	}
+
+	AddLight("Default Light")
+	{
+		SetAmbience(0.2)
+		TurnedOn(true)
+		SetDirection(-1, 1, -1)
+	}
+
+	AddCamera("Default Camera")
+	{
+		SetHither(10)
+		SetYon(10000)
+		SetProjectionPlane(1000)
+		Translate(0, 10, -1500)
+	}
+}

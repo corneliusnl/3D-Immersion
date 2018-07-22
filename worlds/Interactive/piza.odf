@@ -1,0 +1,730 @@
+; Converted By Conversion V2.0
+; Copyright 1998 (c) Leprechaun Software.  All Rights Reserved.
+
+Object(35)
+{
+	AddVertex(0,245,0)	; 0 
+	AddVertex(-90,245,0)	; 1 
+	AddVertex(-63,245,-63)	; 2 
+	AddVertex(-90,205,0)	; 4 
+	AddVertex(-63,205,-63)	; 5
+	AddVertex(-130,205,0)	; 8 
+	AddVertex(-91,205,-91)	; 9 
+	AddVertex(-130,0,0)	; 12 
+	AddVertex(-91,0,-91)	; 13 
+	AddVertex(0,245,-89)	; 17 
+	AddVertex(63,245,-63)	; 20 
+	AddVertex(89,245,0)	; 23 
+	AddVertex(63,245,63)	; 26 
+	AddVertex(0,245,89)	; 29 
+	AddVertex(-63,245,63)	; 32
+	AddVertex(-89,245,0)	; 35 
+	AddVertex(0,205,-89)	; 38 
+	AddVertex(63,205,-63)	; 42 
+	AddVertex(89,205,0)	; 46
+	AddVertex(63,205,63)	; 50 
+	AddVertex(0,205,89)	; 54
+	AddVertex(-63,205,63)	; 58 
+	AddVertex(-89,205,0)	; 62 
+	AddVertex(0,205,-130)	; 66 
+	AddVertex(91,205,-91)	; 70 
+	AddVertex(130,205,0)	; 74 
+	AddVertex(91,205,91)	; 78
+	AddVertex(0,205,130)	; 82
+	AddVertex(-91,205,91)	; 86
+	AddVertex(0,0,-130)	; 94
+	AddVertex(91,0,-91)	; 98
+	AddVertex(130,0,0)	; 102
+	AddVertex(91,0,91)	; 106
+	AddVertex(0,0,130)	; 110
+	AddVertex(-91,0,91)	; 114
+
+	AddTexturePolygon(3,0,1,2)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+		}
+	}
+	AddTexturePolygon(3,2,1,0)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+		}
+	}
+	AddTexturePolygon(4,1,3,4,2)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,2,4,3,1)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,3,5,6,4)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,4,6,5,3)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,5,7,8,6)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,6,8,7,5)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(3,0,2,9)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+		}
+	}
+	AddTexturePolygon(3,9,2,0)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+		}
+	}
+	AddTexturePolygon(3,0,9,10)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+		}
+	}
+	AddTexturePolygon(3,10,9,0)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+		}
+	}
+	AddTexturePolygon(3,0,10,11)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+		}
+	}
+	AddTexturePolygon(3,11,10,0)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+		}
+	}
+	AddTexturePolygon(3,0,11,12)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+		}
+	}
+	AddTexturePolygon(3,12,11,0)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+		}
+	}
+	AddTexturePolygon(3,0,12,13)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+		}
+	}
+	AddTexturePolygon(3,13,12,0)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+		}
+	}
+	AddTexturePolygon(3,0,13,14)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+		}
+	}
+	AddTexturePolygon(3,14,13,0)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+		}
+	}
+	AddTexturePolygon(3,0,14,15)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+		}
+	}
+	AddTexturePolygon(3,15,14,0)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+		}
+	}
+	AddTexturePolygon(4,2,4,16,9)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,9,16,4,2)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,9,16,17,10)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,10,17,16,9)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,10,17,18,11)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,11,18,17,10)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,11,18,19,12)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,12,19,18,11)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,12,19,20,13)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,13,20,19,12)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,13,20,21,14)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,14,21,20,13)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,14,21,22,15)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,15,22,21,14)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,4,6,23,16)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,16,23,6,4)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,16,23,24,17)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,17,24,23,16)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,17,24,25,18)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,18,25,24,17)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,18,25,26,19)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,19,26,25,18)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,19,26,27,20)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,20,27,26,19)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,20,27,28,21)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,21,28,27,20)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,21,28,5,22)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,22,5,28,21)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,6,8,29,23)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,23,29,8,6)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,23,29,30,24)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,24,30,29,23)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,24,30,31,25)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,25,31,30,24)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,25,31,32,26)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,26,32,31,25)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,26,32,33,27)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,27,33,32,26)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,27,33,34,28)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,28,34,33,27)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,28,34,7,5)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+	AddTexturePolygon(4,5,7,34,28)
+	{
+		SetColor(224,108,0)
+		SetTexture("Piza Strip.bmp")
+		{
+			MapVertex(0, 199)
+			MapVertex(599, 199)
+			MapVertex(599, 0)
+			MapVertex(0, 0)
+		}
+	}
+}

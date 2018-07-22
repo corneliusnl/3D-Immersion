@@ -1,0 +1,29 @@
+; World Definition File
+; Copyright 1997-1998 (c) Leprechaun Software.  All Rights Reserved.
+;
+
+World("")
+{
+	SetInterface("Diagnostic.dll")
+	SetPalette("Default.pal")
+	SetBackgroundColor(0, 0, 0)
+	SetGravity(0.000000)
+
+	AddCamera("Default Camera")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(0.000, 100.000, 0.000)
+		SetHither(10)
+		SetYon(50000)
+		SetProjectionPlane(1000)
+	}
+
+	AddLight("Default Light")
+	{
+		SetDirection(-1.000, 1.000, -1.000)
+		Translate(0.000, 0.000, 0.000)
+		SetAmbience(0.200)
+		TurnedOn(true)
+	}
+
+}

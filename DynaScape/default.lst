@@ -1,0 +1,8 @@
+; Dynamic Landscape Modeller v1.0
+; Default Object List
+;
+
+AddItem("water.ico", "water.odf", "Water")
+AddItem("grass.ico", "grass.odf", "Grass")
+AddItem("road_v.ico", "road_v.odf", "Vertical road")
+AddItem("road_h.ico", "road_h.odf", "Horizontal road")

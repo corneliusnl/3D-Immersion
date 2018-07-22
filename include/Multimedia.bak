@@ -1,0 +1,77 @@
+#ifndef MULTIMEDIA_MULTIMEDIA_H
+#define MULTIMEDIA_MULTIMEDIA_H
+// ------------------------------------------------------------
+// Midi Music
+// Copyright 1997 (c) Leprechaun Software.  All Rights Reserved.
+// ------------------------------------------------------------
+#include <Windows.h>
+#include <MMSystem.h>
+#include <DigitalV.h>
+
+//
+// Defines
+//
+#define TYPE_MIDI 	"sequencer"
+#define TYPE_CD		"cdaudio"
+#define TYPE_WAVE		"waveaudio"
+#define TYPE_AVI		"avivideo"
+
+//
+// Function Prototypes
+//
+void ShowError(DWORD dwError);
+
+// ------------------------------------------------------------
+// Midi Music
+// ------------------------------------------------------------
+class MCISEQ
+{
+public:
+	MCI_OPEN_PARMS		MciOpenParms;
+	MCI_PLAY_PARMS		MciPlayParms;
+	MCI_GENERIC_PARMS	MciGenParms;
+	MCIDEVICEID			wDeviceID;
+	MCIERROR				dwReturn;
+
+	MCISEQ();
+	~MCISEQ();
+
+	int Open(HWND hWindow, LPSTR file);
+	int Close(HWND hWindow);
+	int Play(HWND hWindow);
+	int Stop(HWND hWindow);
+	int Pause(HWND hWindow);
+	int Resume(HWND hWindow);
+};
+
+// ------------------------------------------------------------
+// AVI Video
+// ------------------------------------------------------------
+class AVIVIDEO
+{
+private:
+	MCI_DGV_OPEN_PARMS      mciOpen;
+	MCI_DGV_WINDOW_PARMS    mciWindow;
+	MCI_DGV_PUT_PARMS			mciPut;
+	MCI_DGV_PLAY_PARMS      mciPlay;
+	MCI_STATUS_PARMS        mciStatus;
+	MCI_GENERIC_PARMS  		mciGeneric;
+
+public:
+	HWND		AviWnd;
+	WORD		DeviceID;
+
+	AVIVIDEO();
+	~AVIVIDEO();
+
+	int	Open(HWND hWnd, LPSTR File);
+	int	SetWindow(HWND hWnd);
+	int	Close(HWND hWnd);
+	int	Put(int X, int Y, int Width, int Height);
+	int	Play(HWND hWnd);
+	int	Stop(HWND hWnd);
+	int	Pause(HWND hWnd);
+	int	Resume(HWND hWnd);
+};
+
+#endif

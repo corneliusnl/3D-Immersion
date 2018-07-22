@@ -1,0 +1,19 @@
+; Converted By Conversion V2.0
+; Copyright 1998 (c) Leprechaun Software.  All Rights Reserved.
+
+Object(4)
+{
+	AddVertex(-245,10,245)	; 0 
+	AddVertex(245,10,245)	; 1 
+	AddVertex(245,10,-245)	; 2 
+	AddVertex(-245,10,-245)	; 3 
+
+	AddLambertPolygon(4,0,1,2,3)
+	{
+		SetColor(0,128,0)
+	}
+	AddLambertPolygon(4,3,2,1,0)
+	{
+		SetColor(0,128,0)
+	}
+}

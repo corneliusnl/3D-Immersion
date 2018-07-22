@@ -1,0 +1,1439 @@
+; Converted By Conversion V2.0
+; Copyright 1998 (c) Leprechaun Software.  All Rights Reserved.
+
+Object(152)
+{
+	AddVertex(-44,24,39)	; 0 
+	AddVertex(-68,24,39)	; 1 
+	AddVertex(-66,24,29)	; 2 
+	AddVertex(-68,30,39)	; 4 
+	AddVertex(-66,30,29)	; 5 
+	AddVertex(-60,30,39)	; 8 
+	AddVertex(-58,30,33)	; 9 
+	AddVertex(-53,94,39)	; 12 
+	AddVertex(-52,94,35)	; 13 
+	AddVertex(-58,94,39)	; 16 
+	AddVertex(-57,94,33)	; 17 
+	AddVertex(-58,97,39)	; 20 
+	AddVertex(-57,97,33)	; 21 
+	AddVertex(-52,97,39)	; 24 
+	AddVertex(-51,97,35)	; 25 
+	AddVertex(-52,109,39)	; 28 
+	AddVertex(-51,109,35)	; 29 
+	AddVertex(-60,109,39)	; 32 
+	AddVertex(-58,109,33)	; 33 
+	AddVertex(-44,120,39)	; 36 
+	AddVertex(-61,24,22)	; 40 
+	AddVertex(-53,24,16)	; 43 
+	AddVertex(-44,24,15)	; 46 
+	AddVertex(-34,24,16)	; 49 
+	AddVertex(-27,24,22)	; 52 
+	AddVertex(-21,24,29)	; 55 
+	AddVertex(-20,24,39)	; 58 
+	AddVertex(-21,24,48)	; 61 
+	AddVertex(-27,24,56)	; 64 
+	AddVertex(-34,24,61)	; 67 
+	AddVertex(-44,24,63)	; 70 
+	AddVertex(-53,24,61)	; 73 
+	AddVertex(-61,24,56)	; 76 
+	AddVertex(-66,24,48)	; 79 
+	AddVertex(-68,24,38)	; 82 
+	AddVertex(-61,30,22)	; 85 
+	AddVertex(-53,30,16)	; 89 
+	AddVertex(-44,30,15)	; 93 
+	AddVertex(-34,30,16)	; 97 
+	AddVertex(-27,30,22)	; 101 
+	AddVertex(-21,30,29)	; 105 
+	AddVertex(-20,30,39)	; 109 
+	AddVertex(-21,30,48)	; 113 
+	AddVertex(-27,30,56)	; 117 
+	AddVertex(-34,30,61)	; 121 
+	AddVertex(-44,30,63)	; 125 
+	AddVertex(-53,30,61)	; 129 
+	AddVertex(-61,30,56)	; 133 
+	AddVertex(-66,30,48)	; 137 
+	AddVertex(-68,30,38)	; 141 
+	AddVertex(-55,30,27)	; 145 
+	AddVertex(-50,30,24)	; 149 
+	AddVertex(-44,30,22)	; 153 
+	AddVertex(-38,30,24)	; 157 
+	AddVertex(-32,30,27)	; 161 
+	AddVertex(-29,30,32)	; 165 
+	AddVertex(-28,30,38)	; 169 
+	AddVertex(-29,30,45)	; 173 
+	AddVertex(-32,30,50)	; 177 
+	AddVertex(-38,30,53)	; 181 
+	AddVertex(-44,30,55)	; 185 
+	AddVertex(-50,30,53)	; 189 
+	AddVertex(-55,30,50)	; 193 
+	AddVertex(-58,30,45)	; 197 
+	AddVertex(-60,30,39)	; 201 
+	AddVertex(-50,94,32)	; 205 
+	AddVertex(-47,94,30)	; 209 
+	AddVertex(-44,94,29)	; 213 
+	AddVertex(-40,94,30)	; 217 
+	AddVertex(-37,94,32)	; 221 
+	AddVertex(-35,94,35)	; 225 
+	AddVertex(-34,94,39)	; 229 
+	AddVertex(-35,94,42)	; 233 
+	AddVertex(-37,94,45)	; 237 
+	AddVertex(-40,94,47)	; 241 
+	AddVertex(-44,94,48)	; 245 
+	AddVertex(-47,94,47)	; 249 
+	AddVertex(-50,94,45)	; 253 
+	AddVertex(-52,94,42)	; 257 
+	AddVertex(-54,94,28)	; 265 
+	AddVertex(-49,94,25)	; 269 
+	AddVertex(-44,94,24)	; 273 
+	AddVertex(-38,94,25)	; 277 
+	AddVertex(-33,94,28)	; 281 
+	AddVertex(-30,94,33)	; 285 
+	AddVertex(-29,94,38)	; 289 
+	AddVertex(-30,94,44)	; 293 
+	AddVertex(-33,94,49)	; 297 
+	AddVertex(-38,94,52)	; 301 
+	AddVertex(-43,94,53)	; 305 
+	AddVertex(-49,94,52)	; 309 
+	AddVertex(-54,94,49)	; 313 
+	AddVertex(-57,94,44)	; 317 
+	AddVertex(-58,94,39)	; 321 
+	AddVertex(-54,97,28)	; 325 
+	AddVertex(-49,97,25)	; 329 
+	AddVertex(-44,97,24)	; 333 
+	AddVertex(-38,97,25)	; 337 
+	AddVertex(-33,97,28)	; 341 
+	AddVertex(-30,97,33)	; 345 
+	AddVertex(-29,97,38)	; 349 
+	AddVertex(-30,97,44)	; 353 
+	AddVertex(-33,97,49)	; 357 
+	AddVertex(-38,97,52)	; 361 
+	AddVertex(-43,97,53)	; 365 
+	AddVertex(-49,97,52)	; 369 
+	AddVertex(-54,97,49)	; 373 
+	AddVertex(-57,97,44)	; 377 
+	AddVertex(-58,97,39)	; 381 
+	AddVertex(-49,97,33)	; 385 
+	AddVertex(-47,97,31)	; 389 
+	AddVertex(-44,97,31)	; 393 
+	AddVertex(-40,97,31)	; 397 
+	AddVertex(-38,97,33)	; 401 
+	AddVertex(-36,97,35)	; 405 
+	AddVertex(-36,97,39)	; 409 
+	AddVertex(-36,97,42)	; 413 
+	AddVertex(-38,97,44)	; 417 
+	AddVertex(-40,97,46)	; 421 
+	AddVertex(-44,97,47)	; 425 
+	AddVertex(-47,97,46)	; 429 
+	AddVertex(-49,97,44)	; 433 
+	AddVertex(-51,97,42)	; 437 
+	AddVertex(-49,109,33)	; 445 
+	AddVertex(-47,109,31)	; 449 
+	AddVertex(-44,109,31)	; 453 
+	AddVertex(-40,109,31)	; 457 
+	AddVertex(-38,109,33)	; 461 
+	AddVertex(-36,109,35)	; 465 
+	AddVertex(-36,109,39)	; 469 
+	AddVertex(-36,109,42)	; 473 
+	AddVertex(-38,109,44)	; 477 
+	AddVertex(-40,109,46)	; 481 
+	AddVertex(-44,109,47)	; 485 
+	AddVertex(-47,109,46)	; 489 
+	AddVertex(-49,109,44)	; 493 
+	AddVertex(-51,109,42)	; 497 
+	AddVertex(-55,109,27)	; 505 
+	AddVertex(-50,109,24)	; 509 
+	AddVertex(-44,109,22)	; 513 
+	AddVertex(-38,109,24)	; 517 
+	AddVertex(-32,109,27)	; 521 
+	AddVertex(-29,109,32)	; 525 
+	AddVertex(-28,109,38)	; 529 
+	AddVertex(-29,109,45)	; 533 
+	AddVertex(-32,109,50)	; 537 
+	AddVertex(-38,109,53)	; 541 
+	AddVertex(-44,109,55)	; 545 
+	AddVertex(-50,109,53)	; 549 
+	AddVertex(-55,109,50)	; 553 
+	AddVertex(-58,109,45)	; 557 
+	AddVertex(-60,109,39)	; 561 
+
+	AddLambertPolygon(3,0,1,2)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,2,1,0)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(4,1,3,4,2)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,2,4,3,1)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,3,5,6,4)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,4,6,5,3)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,5,7,8,6)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,6,8,7,5)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,7,9,10,8)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,8,10,9,7)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,9,11,12,10)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,10,12,11,9)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,11,13,14,12)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,12,14,13,11)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,13,15,16,14)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,14,16,15,13)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,15,17,18,16)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,16,18,17,15)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,17,19,18)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,18,19,17)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,0,2,20)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,20,2,0)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,0,20,21)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,21,20,0)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,0,21,22)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,22,21,0)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,0,22,23)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,23,22,0)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,0,23,24)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,24,23,0)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,0,24,25)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,25,24,0)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,0,25,26)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,26,25,0)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,0,26,27)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,27,26,0)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,0,27,28)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,28,27,0)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,0,28,29)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,29,28,0)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,0,29,30)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,30,29,0)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,0,30,31)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,31,30,0)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,0,31,32)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,32,31,0)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,0,32,33)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,33,32,0)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,0,33,34)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(3,34,33,0)
+	{
+		SetColor(84,84,252)
+	}
+	AddLambertPolygon(4,2,4,35,20)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,20,35,4,2)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,20,35,36,21)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,21,36,35,20)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,21,36,37,22)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,22,37,36,21)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,22,37,38,23)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,23,38,37,22)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,23,38,39,24)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,24,39,38,23)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,24,39,40,25)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,25,40,39,24)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,25,40,41,26)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,26,41,40,25)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,26,41,42,27)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,27,42,41,26)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,27,42,43,28)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,28,43,42,27)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,28,43,44,29)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,29,44,43,28)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,29,44,45,30)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,30,45,44,29)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,30,45,46,31)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,31,46,45,30)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,31,46,47,32)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,32,47,46,31)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,32,47,48,33)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,33,48,47,32)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,33,48,49,34)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,34,49,48,33)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,4,6,50,35)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,35,50,6,4)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,35,50,51,36)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,36,51,50,35)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,36,51,52,37)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,37,52,51,36)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,37,52,53,38)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,38,53,52,37)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,38,53,54,39)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,39,54,53,38)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,39,54,55,40)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,40,55,54,39)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,40,55,56,41)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,41,56,55,40)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,41,56,57,42)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,42,57,56,41)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,42,57,58,43)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,43,58,57,42)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,43,58,59,44)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,44,59,58,43)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,44,59,60,45)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,45,60,59,44)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,45,60,61,46)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,46,61,60,45)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,46,61,62,47)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,47,62,61,46)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,47,62,63,48)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,48,63,62,47)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,48,63,64,49)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,49,64,63,48)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,6,8,65,50)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,50,65,8,6)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,50,65,66,51)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,51,66,65,50)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,51,66,67,52)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,52,67,66,51)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,52,67,68,53)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,53,68,67,52)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,53,68,69,54)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,54,69,68,53)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,54,69,70,55)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,55,70,69,54)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,55,70,71,56)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,56,71,70,55)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,56,71,72,57)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,57,72,71,56)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,57,72,73,58)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,58,73,72,57)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,58,73,74,59)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,59,74,73,58)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,59,74,75,60)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,60,75,74,59)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,60,75,76,61)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,61,76,75,60)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,61,76,77,62)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,62,77,76,61)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,62,77,78,63)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,63,78,77,62)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,63,78,7,64)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,64,7,78,63)
+	{
+		SetColor(252,252,252)
+	}
+	AddLambertPolygon(4,8,10,79,65)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,65,79,10,8)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,65,79,80,66)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,66,80,79,65)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,66,80,81,67)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,67,81,80,66)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,67,81,82,68)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,68,82,81,67)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,68,82,83,69)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,69,83,82,68)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,69,83,84,70)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,70,84,83,69)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,70,84,85,71)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,71,85,84,70)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,71,85,86,72)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,72,86,85,71)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,72,86,87,73)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,73,87,86,72)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,73,87,88,74)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,74,88,87,73)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,74,88,89,75)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,75,89,88,74)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,75,89,90,76)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,76,90,89,75)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,76,90,91,77)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,77,91,90,76)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,77,91,92,78)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,78,92,91,77)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,78,92,93,7)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,7,93,92,78)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,10,12,94,79)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,79,94,12,10)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,79,94,95,80)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,80,95,94,79)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,80,95,96,81)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,81,96,95,80)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,81,96,97,82)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,82,97,96,81)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,82,97,98,83)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,83,98,97,82)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,83,98,99,84)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,84,99,98,83)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,84,99,100,85)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,85,100,99,84)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,85,100,101,86)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,86,101,100,85)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,86,101,102,87)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,87,102,101,86)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,87,102,103,88)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,88,103,102,87)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,88,103,104,89)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,89,104,103,88)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,89,104,105,90)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,90,105,104,89)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,90,105,106,91)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,91,106,105,90)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,91,106,107,92)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,92,107,106,91)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,92,107,108,93)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,93,108,107,92)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,12,14,109,94)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,94,109,14,12)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,94,109,110,95)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,95,110,109,94)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,95,110,111,96)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,96,111,110,95)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,96,111,112,97)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,97,112,111,96)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,97,112,113,98)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,98,113,112,97)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,98,113,114,99)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,99,114,113,98)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,99,114,115,100)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,100,115,114,99)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,100,115,116,101)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,101,116,115,100)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,101,116,117,102)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,102,117,116,101)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,102,117,118,103)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,103,118,117,102)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,103,118,119,104)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,104,119,118,103)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,104,119,120,105)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,105,120,119,104)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,105,120,121,106)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,106,121,120,105)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,106,121,122,107)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,107,122,121,106)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,107,122,13,108)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,108,13,122,107)
+	{
+		SetColor(0,0,0)
+	}
+	AddLambertPolygon(4,14,16,123,109)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,109,123,16,14)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,109,123,124,110)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,110,124,123,109)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,110,124,125,111)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,111,125,124,110)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,111,125,126,112)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,112,126,125,111)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,112,126,127,113)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,113,127,126,112)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,113,127,128,114)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,114,128,127,113)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,114,128,129,115)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,115,129,128,114)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,115,129,130,116)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,116,130,129,115)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,116,130,131,117)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,117,131,130,116)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,117,131,132,118)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,118,132,131,117)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,118,132,133,119)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,119,133,132,118)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,119,133,134,120)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,120,134,133,119)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,120,134,135,121)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,121,135,134,120)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,121,135,136,122)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,122,136,135,121)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,122,136,15,13)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,13,15,136,122)
+	{
+		SetColor(84,252,84)
+	}
+	AddLambertPolygon(4,16,18,137,123)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,123,137,18,16)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,123,137,138,124)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,124,138,137,123)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,124,138,139,125)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,125,139,138,124)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,125,139,140,126)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,126,140,139,125)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,126,140,141,127)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,127,141,140,126)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,127,141,142,128)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,128,142,141,127)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,128,142,143,129)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,129,143,142,128)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,129,143,144,130)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,130,144,143,129)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,130,144,145,131)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,131,145,144,130)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,131,145,146,132)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,132,146,145,131)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,132,146,147,133)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,133,147,146,132)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,133,147,148,134)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,134,148,147,133)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,134,148,149,135)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,135,149,148,134)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,135,149,150,136)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,136,150,149,135)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,136,150,151,15)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(4,15,151,150,136)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,18,19,137)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,137,19,18)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,137,19,138)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,138,19,137)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,138,19,139)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,139,19,138)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,139,19,140)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,140,19,139)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,140,19,141)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,141,19,140)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,141,19,142)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,142,19,141)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,142,19,143)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,143,19,142)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,143,19,144)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,144,19,143)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,144,19,145)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,145,19,144)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,145,19,146)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,146,19,145)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,146,19,147)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,147,19,146)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,147,19,148)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,148,19,147)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,148,19,149)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,149,19,148)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,149,19,150)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,150,19,149)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,150,19,151)
+	{
+		SetColor(168,0,0)
+	}
+	AddLambertPolygon(3,151,19,150)
+	{
+		SetColor(168,0,0)
+	}
+}

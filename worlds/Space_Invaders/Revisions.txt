@@ -1,0 +1,9 @@
+Space Invaders '98: Our Second Contact
+Revisions Log
+---------------------------------------
+Copyright 1998 (c) Leprechaun Software.  All Rights Reserved
+
+(April 18th) Initial work began today as I decided a game such as
+Space Invaders in 3D would draw a crowd at the same time
+demonstrating the power of the program and allowing all to appreciate
+it's features.

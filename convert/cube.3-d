@@ -1,0 +1,43 @@
+; Converted By Conversion V1.0
+; A Simple Cube Demonstration
+
+UNDEFINED_OBJECT_TYPE "cube" 
+{
+	VERTICES=8
+	POLYGONS=6
+}
+BEGIN "cube"
+	VERT0 <0,0,100> 	; Vertice 0 
+	VERT1 <0,100,100> 	; Vertice 1 
+	VERT2 <100,100,100> 
+	VERT3 <100,0,100> 
+	VERT4 <0,0,0> 
+	VERT5 <0,100,0> 
+	VERT6 <100,100,0> 
+	VERT7 <100,0,0> 
+
+	POLY0 4(0,1,2,3)
+	{
+		COLOR(48)
+	}
+	POLY1 4(1,5,6,2)
+	{
+		COLOR(64)
+	}
+	POLY2 4(5,4,7,6)
+	{
+		COLOR(80)
+	}
+	POLY3 4(0,3,7,4)
+	{
+		COLOR(96)
+	}
+	POLY4 4(4,5,1,0)
+	{
+		COLOR(0)
+	}
+	POLY5 4(7,3,2,6)
+	{
+		COLOR(0)
+	}
+END

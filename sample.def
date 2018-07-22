@@ -1,0 +1,10 @@
+LIBRARY     IMMERSION.DLL
+
+EXPORTS
+    @MainDlgProc$qqspvuiuil        @6   ; MainDlgProc(void*,unsigned int,unsigned int,long) __stdcall
+    Animate                        @2   
+    Create                         @1   
+    Destroy                        @5   
+    MouseMove                      @3   
+    MousePress                     @4   
+    __DebuggerHookData             @7   

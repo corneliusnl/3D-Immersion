@@ -1,0 +1,72 @@
+; World Definition File
+; Copyright 1997-1998 (c) Leprechaun Software.  All Rights Reserved.
+;
+
+World("Understanding how the piza tower became to")
+{
+	SetInterface("Tower.dll")
+	SetPalette("Default.pal")
+	SetBackgroundColor(0, 0, 192)
+	SetGravity(0.000000)
+
+	AddObject("C:\BC5\Personal\Immersion\Worlds\Interactive\Tree.odf", "Fir Tree")
+	{
+		SetInterface("Tower.dll")
+		Rotate(0.000, 0.000, 0.000)
+		Translate(300.000, 0.000, 0.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("C:\BC5\Personal\Immersion\Worlds\Interactive\Piza.odf", "Piza Tower")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(0.000, 0.000, 0.000)
+		Scale(1.000, 4.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddObject("C:\BC5\Personal\Immersion\Worlds\Interactive\Horizon.odf", "Horizon")
+	{
+		Rotate(0.000, 0.000, 0.000)
+		Translate(0.000, 0.000, 0.000)
+		Scale(1.000, 1.000, 1.000)
+		SetLinearVelocity(0.000, 0.000, 0.000)
+		SetLinearAcceleration(0.000, 0.000, 0.000)
+		SetRotationalVelocity(0.000, 0.000, 0.000)
+		SetRotationalAcceleration(0.000, 0.000, 0.000)
+		SetMass(0.000)
+		SetForce(0.000)
+		SetFriction(0.000)
+	}
+
+	AddCamera("Default Camera")
+	{
+		Rotate(-10.000, 0.000, 0.000)
+		Translate(0.000, 100.000, -2500.000)
+		SetHither(10)
+		SetYon(50000)
+		SetProjectionPlane(1000)
+	}
+
+	AddLight("Default Light")
+	{
+		SetDirection(-1.000, 1.000, -1.000)
+		Translate(0.000, 0.000, 0.000)
+		SetAmbience(0.200)
+		TurnedOn(true)
+	}
+
+}

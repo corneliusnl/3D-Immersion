@@ -1,0 +1,35 @@
+#ifndef IMMERSION_CAMERA_H
+#define IMMERSION_CAMERA_H
+// ------------------------------------------------------------
+// Camera Routines
+// Copyright 1998 (c) Leprechaun Software.  All Rights Reserved.
+// ------------------------------------------------------------
+#include "Include\Matrix.h"
+
+//
+// Camera Class
+//
+class CAMERA
+{
+public:
+	CAMERA	*Prev, *Next;
+	MATRIX	*Matrix;
+	float		xTranslate, yTranslate, zTranslate;
+	float		Pitch, Yaw, Roll;
+	char		Identifier[256];
+	long		ProjectionPlane;
+	long		Hither, Yon;
+
+	// Class Construction/Destruction
+	CAMERA();
+	~CAMERA();
+
+   // Methods
+   void	SetHither(long Hither);
+   void	SetYon(long Yon);
+   void	SetProjectionPlane(long ProjectionPlane);
+   void	Translate(float x, float y, float z);
+   void	Rotate(float x, float y, float z);
+};
+
+#endif

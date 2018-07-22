@@ -1,0 +1,11 @@
+#define IDD_PROMPTDLG	101
+#define IDC_BROWSE		104
+#define IDC_FILE			103
+#define IDC_EDIT1	105
+#define IDC_SCALE	105
+#define IDC_EDIT2	106
+#define IDC_DIVISOR	106
+#define IDC_MULTIPLIER	105
+#define IDC_GROUPBOX1	106
+#define IDC_CANCEL		102
+#define IDC_OK				101

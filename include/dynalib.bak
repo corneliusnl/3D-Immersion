@@ -1,0 +1,24 @@
+#ifndef IMMERSION_DYNALIB_H
+#define IMMERSION_DYNALIB_H
+// ------------------------------------------------------------
+// 3D Immersion DynaLib Function Prototypes
+// Copyright 1997 (c) Leprechaun Software.  All Rights Reserved.
+// ------------------------------------------------------------
+#include <Windows.h>
+#include "Include\World.h"
+#include "Include\Object.h"
+
+class WORLD;
+class OBJECT;
+
+//
+// Interface Dynalib Prototypes
+//
+typedef long (CALLBACK *INTERFACEPROC)	(WORLD *World, unsigned int Message, WPARAM wParam, LPARAM lParam);
+
+//
+// Object Dynalib Prototypes
+//
+typedef long (CALLBACK *OBJECTPROC)	(OBJECT *Object, unsigned int Message, WPARAM wParam, LPARAM lParam);
+
+#endif

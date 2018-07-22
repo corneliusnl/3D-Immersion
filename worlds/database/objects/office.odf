@@ -1,0 +1,327 @@
+; Converted By Conversion V2.0
+; Copyright 1998 (c) Leprechaun Software.  All Rights Reserved.
+
+Object(96)
+{
+	AddVertex(-155,0,0)	; 0 
+	AddVertex(-155,120,0)	; 1 
+	AddVertex(0,120,-155)	; 2 
+	AddVertex(0,0,-155)	; 3 
+	AddVertex(0,0,0)	; 4 
+	AddVertex(-155,0,0)	; 5 
+	AddVertex(0,0,-155)	; 6 
+	AddVertex(-180,120,0)	; 7 
+	AddVertex(0,120,0)	; 8 
+	AddVertex(0,120,-180)	; 9 
+	AddVertex(-180,120,0)	; 10 
+	AddVertex(-155,140,0)	; 11 
+	AddVertex(0,140,-155)	; 12 
+	AddVertex(0,120,-180)	; 13 
+	AddVertex(-155,140,0)	; 14 
+	AddVertex(0,140,0)	; 15 
+	AddVertex(0,140,-155)	; 16 
+	AddVertex(-155,140,0)	; 17 
+	AddVertex(-155,245,0)	; 18 
+	AddVertex(0,245,-155)	; 19 
+	AddVertex(0,140,-155)	; 20 
+	AddVertex(-155,245,0)	; 21 
+	AddVertex(0,245,0)	; 22 
+	AddVertex(0,245,-155)	; 23 
+	AddVertex(0,0,-155)	; 24 
+	AddVertex(0,120,-155)	; 25 
+	AddVertex(155,120,0)	; 26 
+	AddVertex(155,0,0)	; 27 
+	AddVertex(155,0,0)	; 28 
+	AddVertex(155,120,0)	; 29 
+	AddVertex(0,120,155)	; 30 
+	AddVertex(0,0,155)	; 31 
+	AddVertex(0,0,155)	; 32 
+	AddVertex(0,120,155)	; 33 
+	AddVertex(-155,120,0)	; 34 
+	AddVertex(-155,0,0)	; 35 
+	AddVertex(0,0,0)	; 36 
+	AddVertex(0,0,-155)	; 37 
+	AddVertex(155,0,0)	; 38 
+	AddVertex(0,0,0)	; 39 
+	AddVertex(155,0,0)	; 40 
+	AddVertex(0,0,155)	; 41 
+	AddVertex(0,0,0)	; 42 
+	AddVertex(0,0,155)	; 43 
+	AddVertex(-155,0,0)	; 44 
+	AddVertex(0,120,-180)	; 45 
+	AddVertex(0,120,0)	; 46 
+	AddVertex(180,120,0)	; 47 
+	AddVertex(180,120,0)	; 48 
+	AddVertex(0,120,0)	; 49 
+	AddVertex(0,120,180)	; 50 
+	AddVertex(0,120,180)	; 51 
+	AddVertex(0,120,0)	; 52 
+	AddVertex(-180,120,0)	; 53 
+	AddVertex(0,120,-180)	; 54 
+	AddVertex(0,140,-155)	; 55 
+	AddVertex(155,140,0)	; 56 
+	AddVertex(180,120,0)	; 57 
+	AddVertex(180,120,0)	; 58 
+	AddVertex(155,140,0)	; 59 
+	AddVertex(0,140,155)	; 60 
+	AddVertex(0,120,180)	; 61 
+	AddVertex(0,120,180)	; 62 
+	AddVertex(0,140,155)	; 63 
+	AddVertex(-155,140,0)	; 64 
+	AddVertex(-180,120,0)	; 65 
+	AddVertex(0,140,-155)	; 66 
+	AddVertex(0,140,0)	; 67 
+	AddVertex(155,140,0)	; 68 
+	AddVertex(155,140,0)	; 69 
+	AddVertex(0,140,0)	; 70 
+	AddVertex(0,140,155)	; 71 
+	AddVertex(0,140,155)	; 72 
+	AddVertex(0,140,0)	; 73 
+	AddVertex(-155,140,0)	; 74 
+	AddVertex(0,140,-155)	; 75 
+	AddVertex(0,245,-155)	; 76 
+	AddVertex(155,245,0)	; 77 
+	AddVertex(155,140,0)	; 78 
+	AddVertex(155,140,0)	; 79 
+	AddVertex(155,245,0)	; 80 
+	AddVertex(0,245,155)	; 81 
+	AddVertex(0,140,155)	; 82 
+	AddVertex(0,140,155)	; 83 
+	AddVertex(0,245,155)	; 84 
+	AddVertex(-155,245,0)	; 85 
+	AddVertex(-155,140,0)	; 86 
+	AddVertex(0,245,-155)	; 87 
+	AddVertex(0,245,0)	; 88 
+	AddVertex(155,245,0)	; 89 
+	AddVertex(155,245,0)	; 90 
+	AddVertex(0,245,0)	; 91 
+	AddVertex(0,245,155)	; 92 
+	AddVertex(0,245,155)	; 93 
+	AddVertex(0,245,0)	; 94 
+	AddVertex(-155,245,0)	; 95 
+
+	AddLambertPolygon(4,0,1,2,3)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(4,3,2,1,0)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(3,4,5,6)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(3,6,5,4)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(3,7,8,9)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(3,9,8,7)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(4,10,11,12,13)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(4,13,12,11,10)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(3,14,15,16)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(3,16,15,14)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(4,17,18,19,20)
+	{
+		SetColor(92,0,0)
+	}
+	AddLambertPolygon(4,20,19,18,17)
+	{
+		SetColor(92,0,0)
+	}
+	AddLambertPolygon(3,21,22,23)
+	{
+		SetColor(92,0,0)
+	}
+	AddLambertPolygon(3,23,22,21)
+	{
+		SetColor(92,0,0)
+	}
+	AddLambertPolygon(4,24,25,26,27)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(4,27,26,25,24)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(4,28,29,30,31)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(4,31,30,29,28)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(4,32,33,34,35)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(4,35,34,33,32)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(3,36,37,38)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(3,38,37,36)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(3,39,40,41)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(3,41,40,39)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(3,42,43,44)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(3,44,43,42)
+	{
+		SetColor(48,0,0)
+	}
+	AddLambertPolygon(3,45,46,47)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(3,47,46,45)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(3,48,49,50)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(3,50,49,48)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(3,51,52,53)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(3,53,52,51)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(4,54,55,56,57)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(4,57,56,55,54)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(4,58,59,60,61)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(4,61,60,59,58)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(4,62,63,64,65)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(4,65,64,63,62)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(3,66,67,68)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(3,68,67,66)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(3,69,70,71)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(3,71,70,69)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(3,72,73,74)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(3,74,73,72)
+	{
+		SetColor(152,0,0)
+	}
+	AddLambertPolygon(4,75,76,77,78)
+	{
+		SetColor(92,0,0)
+	}
+	AddLambertPolygon(4,78,77,76,75)
+	{
+		SetColor(92,0,0)
+	}
+	AddLambertPolygon(4,79,80,81,82)
+	{
+		SetColor(92,0,0)
+	}
+	AddLambertPolygon(4,82,81,80,79)
+	{
+		SetColor(92,0,0)
+	}
+	AddLambertPolygon(4,83,84,85,86)
+	{
+		SetColor(92,0,0)
+	}
+	AddLambertPolygon(4,86,85,84,83)
+	{
+		SetColor(92,0,0)
+	}
+	AddLambertPolygon(3,87,88,89)
+	{
+		SetColor(92,0,0)
+	}
+	AddLambertPolygon(3,89,88,87)
+	{
+		SetColor(92,0,0)
+	}
+	AddLambertPolygon(3,90,91,92)
+	{
+		SetColor(92,0,0)
+	}
+	AddLambertPolygon(3,92,91,90)
+	{
+		SetColor(92,0,0)
+	}
+	AddLambertPolygon(3,93,94,95)
+	{
+		SetColor(92,0,0)
+	}
+	AddLambertPolygon(3,95,94,93)
+	{
+		SetColor(92,0,0)
+	}
+}

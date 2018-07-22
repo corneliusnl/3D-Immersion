@@ -1,0 +1,38 @@
+// ------------------------------------------------------------
+// 3D Immersion
+// Copyright 1997 (c) Leprechaun Software.  All Rights Reserved.
+// ------------------------------------------------------------
+#include "Include\CommonCtrls.h"
+
+//
+// External Referenced
+//
+extern	WINAPP	WinApp;
+extern	WORLD		*World;
+extern	TABINDEX	*InfoTab;
+extern	HWND		TabWnd;
+extern	bool		Modified;
+
+//
+// Global Function Prototypes
+//
+void	LocateInterface(HWND hWindow);
+
+//
+// Window Procedure Prototypes
+//
+LRESULT CALLBACK _export RenderWndProc(HWND hWindow, UINT Message, WPARAM wParam, LPARAM lParam);
+
+//
+// Dialog Box Prototypes
+//
+int _export FAR PASCAL AboutDlgProc(HWND, UINT, WPARAM, LPARAM);
+int _export FAR PASCAL OptionsDlgProc(HWND, UINT, WPARAM, LPARAM);
+int _export FAR PASCAL WorldDlgProc(HWND, UINT, WPARAM, LPARAM);
+int _export FAR PASCAL ObjectDlgProc(HWND, UINT, WPARAM, LPARAM);
+int _export FAR PASCAL CameraDlgProc(HWND, UINT, WPARAM, LPARAM);
+int _export FAR PASCAL LightDlgProc(HWND, UINT, WPARAM, LPARAM);
+int _export FAR PASCAL EditWorldDlgProc(HWND hDlg, UINT Message, WPARAM wParam, LPARAM lParam);
+int _export FAR PASCAL EditObjectDlgProc(HWND hDlg, UINT Message, WPARAM wParam, LPARAM lParam);
+int _export FAR PASCAL EditCameraDlgProc(HWND hDlg, UINT Message, WPARAM wParam, LPARAM lParam);
+int _export FAR PASCAL EditLightDlgProc(HWND hDlg, UINT Message, WPARAM wParam, LPARAM lParam);

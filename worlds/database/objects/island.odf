@@ -1,0 +1,180 @@
+; Converted By Conversion V2.0
+; Copyright 1998 (c) Leprechaun Software.  All Rights Reserved.
+
+Object(18)
+{
+	AddVertex(-140,0,23)	; 0 
+	AddVertex(-105,24,33)	; 1 
+	AddVertex(-30,24,108)	; 2 
+	AddVertex(-40,0,148)	; 3 
+	AddVertex(92,0,48)	; 6 
+	AddVertex(90,24,33)	; 7 
+	AddVertex(205,0,95)	; 10 
+	AddVertex(175,24,68)	; 11 
+	AddVertex(191,0,-83)	; 14 
+	AddVertex(165,24,-67)	; 15 
+	AddVertex(-6,0,-83)	; 18 
+	AddVertex(15,24,-67)	; 19 
+	AddVertex(-43,107,39)	; 32 
+	AddVertex(-47,105,39)	; 33 
+	AddVertex(-47,100,39)	; 34 
+	AddVertex(-43,98,39)	; 35 
+	AddVertex(-39,105,39)	; 38 
+	AddVertex(-39,100,39)	; 39 
+
+	AddTexturePolygon(4,0,1,2,3)
+	{
+		SetColor(84,84,84)
+		SetTexture("Dirt.bmp")
+		{
+			MapVertex(0, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 0)
+		}
+	}
+	AddTexturePolygon(4,3,2,1,0)
+	{
+		SetColor(84,84,84)
+		SetTexture("Dirt.bmp")
+		{
+			MapVertex(0, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 0)
+		}
+	}
+	AddTexturePolygon(4,2,3,4,5)
+	{
+		SetColor(84,84,84)
+		SetTexture("Dirt.bmp")
+		{
+			MapVertex(0, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 0)
+		}
+	}
+	AddTexturePolygon(4,5,4,3,2)
+	{
+		SetColor(84,84,84)
+		SetTexture("Dirt.bmp")
+		{
+			MapVertex(0, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 0)
+		}
+	}
+	AddTexturePolygon(4,5,4,6,7)
+	{
+		SetColor(84,84,84)
+		SetTexture("Dirt.bmp")
+		{
+			MapVertex(0, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 0)
+		}
+	}
+	AddTexturePolygon(4,7,6,4,5)
+	{
+		SetColor(84,84,84)
+		SetTexture("Dirt.bmp")
+		{
+			MapVertex(0, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 0)
+		}
+	}
+	AddTexturePolygon(4,7,6,8,9)
+	{
+		SetColor(84,84,84)
+		SetTexture("Dirt.bmp")
+		{
+			MapVertex(0, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 0)
+		}
+
+	}
+	AddTexturePolygon(4,9,8,6,7)
+	{
+		SetColor(84,84,84)
+		SetTexture("Dirt.bmp")
+		{
+			MapVertex(0, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 0)
+		}
+	}
+	AddTexturePolygon(4,9,8,10,11)
+	{
+		SetColor(84,84,84)
+		SetTexture("Dirt.bmp")
+		{
+			MapVertex(0, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 0)
+		}
+	}
+	AddTexturePolygon(4,11,10,8,9)
+	{
+		SetColor(84,84,84)
+		SetTexture("Dirt.bmp")
+		{
+			MapVertex(0, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 0)
+		}
+	}
+	AddTexturePolygon(4,11,10,0,1)
+	{
+		SetColor(84,84,84)
+		SetTexture("Dirt.bmp")
+		{
+			MapVertex(0, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 0)
+		}
+	}
+	AddTexturePolygon(4,1,0,10,11)
+	{
+		SetColor(84,84,84)
+		SetTexture("Dirt.bmp")
+		{
+			MapVertex(0, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 196)
+			MapVertex(502, 0)
+		}
+	}
+	AddTexturePolygon(4,1,11,5,2)
+	{
+		SetColor(84,84,84)
+		SetTexture("Grass.bmp")
+		{
+			MapVertex(0, 249)
+			MapVertex(249, 249)
+			MapVertex(249, 249)
+			MapVertex(249, 0)
+		}
+	}
+	AddTexturePolygon(4,11,9,7,5)
+	{
+		SetColor(84,84,84)
+		SetTexture("Grass.bmp")
+		{
+			MapVertex(0, 249)
+			MapVertex(249, 249)
+			MapVertex(249, 249)
+			MapVertex(249, 0)
+		}
+	}
+}

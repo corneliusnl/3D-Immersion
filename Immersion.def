@@ -1,0 +1,10 @@
+; ------------------------------------------------------------
+; 3D Immersion
+; Module Definition File
+;
+; Copyright 1998 (c) Leprechaun Software.  All Rights Reserved.
+; ------------------------------------------------------------
+EXETYPE			WINDOWS
+DESCRIPTION		'3D Immersion v1.0 - Leprechaun Software'
+CODE				PRELOAD PRELOAD
+DATA				PRELOAD PRELOAD SINGLE SHARED

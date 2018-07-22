@@ -1,0 +1,10 @@
+# NorthCAD-3D file translated to Rend386 .PLG format.
+# Data is grouped by NorthCAD-3D Objects.
+
+GRASS 4 2
+ -2450    100   2450            #0
+  2450    100   2450             #1
+  2450    100  -2450            #2
+ -2450    100  -2450           #3
+36   4  0  1  2  3
+36   4  3  2  1  0

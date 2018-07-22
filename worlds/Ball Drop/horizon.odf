@@ -1,0 +1,15 @@
+; Simple three dimensional cube
+; OMEGOS 3d format
+
+Object(4)
+{
+	AddVertex(32000, 0, -32000)
+	AddVertex(32000, 0, 32000)
+	AddVertex(-32000, 0, 32000)
+	AddVertex(-32000, 0, -32000)
+
+	AddLambertPolygon(4,0,1,2,3)
+	{
+		SetColor(0,128,0)
+	}
+}
